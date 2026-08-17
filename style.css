@@ -1,0 +1,220 @@
+/* ページ全体 */
+html {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+body {
+    background: transparent;
+    color: #333333;
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* プロフィール */
+.profile {
+    display: flex;
+    align-items: center;
+
+    padding: 20px 30px;
+    margin: 20px 30px;
+
+    background-color: rgba(255, 245, 225, 0.88);
+    border-radius: 15px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text {
+    margin-left: 20px;
+}
+
+.profile-text h1 {
+    color: #0066cc;
+    font-size: 32px;
+    margin: 0 0 8px 0;
+}
+
+.profile-text p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* コンテンツ */
+.content {
+    background-color: white;
+    margin: 20px 30px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.content h2 {
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 8px;
+}
+
+.content p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.content li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.content a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content a:hover {
+    color: #ff66aa;
+    text-decoration: underline;
+}
+
+
+/* =========================
+   スマホ用レイアウト
+   ========================= */
+
+@media screen and (max-width: 600px) {
+    html {
+        background-image: url("./background.jpg");
+    }
+}
+    /* プロフィール */
+    .profile {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .profile img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .profile-text {
+        margin-left: 15px;
+    }
+
+    .profile-text h1 {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .profile-text p {
+        font-size: 13px;
+    }
+
+
+    /* コンテンツ */
+    .content {
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+        padding-bottom: 6px;
+        margin-top: 0;
+    }
+
+    .content p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .content li {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .content a {
+        font-size: 14px;
+    }
+    @media screen and (max-width: 600px) {
+
+    /* スマホ用背景 */
+    html {
+        background-image: url("./background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* プロフィール */
+    .profile {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .profile img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .profile-text {
+        margin-left: 15px;
+    }
+
+    .profile-text h1 {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .profile-text p {
+        font-size: 13px;
+    }
+
+    /* コンテンツ */
+    .content {
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+        padding-bottom: 6px;
+        margin-top: 0;
+    }
+
+    .content p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .content li {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .content a {
+        font-size: 14px;
+    }
+    /* スマホの壁紙変更場所 */
+@media screen and (max-width: 600px) {
+    html {
+        background-image: url("./background.jpg") !important;
+    }
+}
